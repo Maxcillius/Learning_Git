@@ -1,0 +1,35 @@
+/* Class Selector */
+
+.Background {
+  background-color: rgb(79, 170, 147);
+}
+
+/* Element Selector */
+
+h1 {
+  color: orange;
+}
+
+/* ID Selector */
+
+#Home {
+  color: red;
+}
+
+/* Attribute Selector */
+
+p[draggable="true"] {
+  color: white; /* Select paragraphs with attribute draggable --- >>>   Element[Attribute] */
+}
+
+/* Universal Selector */
+
+* {
+  background-color: rgb(79, 170, 147); /* Select all */
+}
+
+#para {
+  text-align: justify;
+  color: white;
+  font-weight: bold;
+}
